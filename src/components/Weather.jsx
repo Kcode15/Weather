@@ -8,7 +8,7 @@ import humidity_icon from '../assets/humidity.png'
 import rain_icon from '../assets/rain.png'
 import snow_icon from '../assets/snow.png'
 import wind_icon from '../assets/wind.png'
-const weather = () => {
+const Weather = () => {
   const[weatherData, setWeatherData] =  useState(false);
   const inputRef = useRef()
   const allIcons = {
@@ -88,4 +88,4 @@ const weather = () => {
   )
 }
 
-export default weather
+export default Weather
